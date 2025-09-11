@@ -1,0 +1,55 @@
+{
+  "home": {
+    "title": "Welcome to my portfolio!",
+    "intro": "Discover my background, projects and contact me."
+  },
+  "about": {
+    "title": "About Samar Jelassi",
+    "summary": "Web and mobile developer, passionate about creating modern digital experiences.",
+    "experienceTitle": "Professional Experience",
+    "experience": [
+      {
+        "position": "Web & Mobile Developer",
+        "company": "Freelance",
+        "period": "2022 - present",
+        "tasks": [
+          "Web and mobile app development (React, React Native, Tailwind CSS)",
+          "Project management, functional analysis, UI/UX design"
+        ]
+      }
+    ],
+    "skillsTitle": "Skills",
+    "skills": [
+      "JavaScript", "React", "React Native", "HTML", "CSS", "Tailwind", "Node.js",
+      "Agile methods", "Teamwork", "Communication"
+    ],
+    "educationTitle": "Education",
+    "education": [
+      {
+        "degree": "Bachelor in Computer Science",
+        "school": "University of Tunis",
+        "year": "2021"
+      }
+    ],
+    "contactTitle": "Contact",
+    "contact": {
+      "email": "samar.jelassi@email.com",
+      "phone": "+216 99 999 999"
+    }
+  },
+  "projects": {
+    "title": "My projects",
+    "content": "Here are some projects I have completed..."
+  },
+  "contact": {
+    "title": "Contact me",
+    "content": "You can reach me via the form or by email."
+  },
+  
+"nav": {
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact"
+}
+}

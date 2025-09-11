@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar using palette colors */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E9D8A6;
+  opacity: 0.3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #005F73, #94D2BD);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #0A9396, #94D2BD);
+}
+
+/* Global body styling with palette */
+body {
+  background: linear-gradient(135deg, rgba(233, 216, 166, 0.05) 0%, white 50%, rgba(148, 210, 189, 0.08) 100%);
+  min-height: 100vh;
+}
+
+/* Dark mode body styling */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(135deg, #001219 0%, rgba(0, 95, 115, 0.8) 50%, rgba(10, 147, 150, 0.3) 100%);
+  }
+}

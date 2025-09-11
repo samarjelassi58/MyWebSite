@@ -1,0 +1,56 @@
+{
+  "home": {
+    "title": "Bienvenue sur mon portfolio !",
+    "intro": "Découvrez mon parcours, mes projets et contactez-moi."
+  },
+  "about": {
+    "title": "À propos de Samar Jelassi",
+    "summary": "Développeuse web et mobile, passionnée par la création d’expériences numériques modernes.",
+    "experienceTitle": "Expérience professionnelle",
+    "experience": [
+      {
+        "poste": "Développeuse Web & Mobile",
+        "entreprise": "Freelance",
+        "periode": "2022 - présent",
+        "missions": [
+          "Développement d’applications web et mobiles (React, React Native, Tailwind CSS)",
+          "Gestion de projets, analyse fonctionnelle, conception UI/UX"
+        ]
+      }
+    ],
+    "skillsTitle": "Compétences",
+    "skills": [
+      "JavaScript", "React", "React Native", "HTML", "CSS", "Tailwind", "Node.js",
+      "Méthodes agiles", "Travail en équipe", "Communication"
+    ],
+    "educationTitle": "Formation",
+    "education": [
+      {
+        "diplome": "Licence en Informatique",
+        "etablissement": "Université de Tunis",
+        "annee": "2021"
+      }
+    ],
+    "contactTitle": "Contact",
+    "contact": {
+      "email": "samar.jelassi@email.com",
+      "telephone": "+216 99 999 999"
+    }
+  },
+  "projects": {
+    "title": "Mes projets",
+    "content": "Voici quelques projets réalisés..."
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "content": "Vous pouvez me joindre via le formulaire ou par email."
+  },
+"nav": {
+  "home": "Accueil",
+  "about": "À propos",
+  "projects": "Projets",
+  "contact": "Contact"
+}
+
+}
+
