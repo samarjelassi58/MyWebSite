@@ -1,11 +1,11 @@
 name: SonarCloud Analysis
 
 on:
-  workflow_dispatch:  # Manual trigger only for now
-  # push:
-  #   branches: [ main ]
-  # pull_request:
-  #   types: [opened, synchronize, reopened]
+  push:
+    branches: [ main, deploy-azure ]
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   sonarcloud:
