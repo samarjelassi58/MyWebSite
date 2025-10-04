@@ -1,0 +1,27 @@
+{
+  "title": "Contact me",
+  "content": "You can reach me via the form or by email.",
+  "contactMethods": "Contact Methods",
+  "availability": "Availability",
+  "availableStatus": "Available for new projects",
+  "responseTime": "Usually respond within 24h",
+  "dataProtection": "Your data is protected and will never be shared with third parties",
+  "methods": {
+    "email": {
+      "title": "Email",
+      "description": "Response within 24h"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Professional network"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "My open source projects"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Instant messaging"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Welcome to my portfolio!",
+  "intro": "Computer science student passionate about web development. Discover my learning journey and projects.",
+  "cta": {
+    "projects": "View my projects", 
+    "contact": "Contact me",
+    "downloadCV": "Download my CV"
+  },
+  "features": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Learning modern technologies like React, Tailwind CSS and JavaScript to create attractive user interfaces."
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Studying Node.js, Express and databases to understand complete web application architecture."
+    },
+    "learning": {
+      "title": "Continuous Learning",
+      "description": "Always seeking new knowledge and technologies to improve my development skills."
+    }
+  },
+  "stats": {
+    "projects": {
+      "number": "15+",
+      "label": "Student Projects"
+    },
+    "learning": {
+      "number": "5+", 
+      "label": "Years of Study"
+    },
+    "technologies": {
+      "number": "10+",
+      "label": "Technologies Learned"
+    },
+    "passion": {
+      "number": "100%",
+      "label": "Motivation"
+    }
+  }
+}

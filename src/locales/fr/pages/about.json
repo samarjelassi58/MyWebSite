@@ -1,0 +1,147 @@
+{
+  "title": "À Propos",
+  "subtitle": "Découvrez mon parcours, mes compétences et ma passion pour le développement",
+  "hero": {
+    "name": "Samar Jelassi",
+    "title": "Étudiante en Développement de Systèmes d'Information",
+    "location": "Sousse, Tunisie"
+  },
+  "navigation": {
+    "experience": "Expérience",
+    "skills": "Compétences", 
+    "education": "Formation",
+    "projects": "Projets"
+  },
+  "experience": {
+    "title": "Expérience & Projets",
+    "items": [
+      {
+        "title": "Développement de Portfolio Personnel",
+        "organization": "Projet Personnel",
+        "period": "2024",
+        "description": "Création d'un portfolio moderne avec React et Tailwind CSS",
+        "achievements": [
+          "Design responsive et moderne",
+          "Système de thème clair/sombre",
+          "Internationalisation FR/EN", 
+          "Optimisation des performances"
+        ]
+      },
+      {
+        "title": "Projets Universitaires",
+        "organization": "EPISousse",
+        "period": "2021 - 2024",
+        "description": "Développement de plusieurs applications dans le cadre des études",
+        "achievements": [
+          "Application de gestion avec base de données",
+          "Site web e-commerce (simulation)",
+          "API REST avec documentation",
+          "Travail en équipe et méthodologie Agile"
+        ]
+      },
+      {
+        "title": "Stage d'Observation",
+        "organization": "Entreprise Locale",
+        "period": "Été 2023",
+        "description": "Découverte du monde professionnel et des pratiques de développement",
+        "achievements": [
+          "Observation des pratiques de développement",
+          "Participation aux réunions d'équipe",
+          "Apprentissage des outils professionnels",
+          "Compréhension des processus métier"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "skills": ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"]
+      },
+      "backend": {
+        "title": "Backend",
+        "skills": ["Node.js", "Express.js", "PHP", "MySQL", "API REST", "JSON"]
+      },
+      "tools": {
+        "title": "Outils & Technologies",
+        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma (base)", "Linux (base)"]
+      },
+      "learning": {
+        "title": "En Apprentissage",
+        "skills": ["TypeScript", "MongoDB", "Docker", "Python", "Vue.js"]
+      }
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "degree": "Licence Appliquée en Développement de Systèmes d'Information",
+        "school": "École Polytechnique Internationale de Sousse (EPISousse)",
+        "year": "2021 - 2024",
+        "description": "Formation spécialisée en développement web, programmation et gestion de bases de données. Acquisition de compétences en développement frontend et backend."
+      },
+      {
+        "degree": "Baccalauréat",
+        "school": "Lycée de Sousse",
+        "year": "2021",
+        "description": "Diplôme du baccalauréat obtenu avec succès, ouvrant la voie aux études supérieures en informatique."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets Personnels",
+    "items": [
+      {
+        "name": "Portfolio Personnel",
+        "description": "Site web moderne développé avec React et Tailwind CSS",
+        "technologies": ["React", "Tailwind CSS", "i18next", "Vite"],
+        "features": [
+          "Design responsive et professionnel",
+          "Mode sombre/clair",
+          "Multilingue (FR/EN)",
+          "Animations fluides"
+        ]
+      },
+      {
+        "name": "Projets Universitaires",
+        "description": "Diverses applications développées dans le cadre des cours",
+        "technologies": ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
+        "features": [
+          "Applications de gestion",
+          "Interfaces utilisateur intuitives",
+          "Bases de données relationnelles",
+          "Validation et sécurité"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      {
+        "name": "Arabe",
+        "level": "Langue maternelle",
+        "percentage": 100
+      },
+      {
+        "name": "Français",
+        "level": "Courant",
+        "percentage": 90
+      },
+      {
+        "name": "Anglais",
+        "level": "Intermédiaire",
+        "percentage": 75
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à collaborer ?",
+    "description": "Je suis ouverte aux opportunités de stage, projets étudiants et apprentissages.",
+    "contact": "Me contacter",
+    "projects": "Voir mes projets"
+  }
+}

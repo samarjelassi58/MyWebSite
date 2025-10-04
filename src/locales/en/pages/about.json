@@ -1,0 +1,147 @@
+{
+  "title": "About",
+  "subtitle": "Discover my journey, skills and passion for development",
+  "hero": {
+    "name": "Samar Jelassi",
+    "title": "Information Systems Development Student",
+    "location": "Sousse, Tunisia"
+  },
+  "navigation": {
+    "experience": "Experience",
+    "skills": "Skills", 
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "experience": {
+    "title": "Experience & Projects",
+    "items": [
+      {
+        "title": "Personal Portfolio Development",
+        "organization": "Personal Project",
+        "period": "2024",
+        "description": "Created a modern portfolio using React and Tailwind CSS",
+        "achievements": [
+          "Responsive and modern design",
+          "Light/dark theme system",
+          "FR/EN internationalization", 
+          "Performance optimization"
+        ]
+      },
+      {
+        "title": "University Projects",
+        "organization": "EPISousse",
+        "period": "2021 - 2024",
+        "description": "Developed several applications as part of coursework",
+        "achievements": [
+          "Management application with database",
+          "E-commerce website (simulation)",
+          "REST API with documentation",
+          "Teamwork and Agile methodology"
+        ]
+      },
+      {
+        "title": "Observation Internship",
+        "organization": "Local Company",
+        "period": "Summer 2023",
+        "description": "Discovery of professional environment and development practices",
+        "achievements": [
+          "Observed development practices",
+          "Participated in team meetings",
+          "Learned professional tools",
+          "Understood business processes"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "skills": ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"]
+      },
+      "backend": {
+        "title": "Backend",
+        "skills": ["Node.js", "Express.js", "PHP", "MySQL", "REST API", "JSON"]
+      },
+      "tools": {
+        "title": "Tools & Technologies",
+        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma (basic)", "Linux (basic)"]
+      },
+      "learning": {
+        "title": "Currently Learning",
+        "skills": ["TypeScript", "MongoDB", "Docker", "Python", "Vue.js"]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Applied Bachelor's in Information Systems Development",
+        "school": "Polytechnic International School of Sousse (EPISousse)",
+        "year": "2021 - 2024",
+        "description": "Specialized training in web development, programming and database management. Acquired skills in frontend and backend development."
+      },
+      {
+        "degree": "High School Diploma",
+        "school": "Sousse High School",
+        "year": "2021",
+        "description": "Successfully obtained high school diploma, paving the way for higher education in computer science."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Personal Projects",
+    "items": [
+      {
+        "name": "Personal Portfolio",
+        "description": "Modern website developed with React and Tailwind CSS",
+        "technologies": ["React", "Tailwind CSS", "i18next", "Vite"],
+        "features": [
+          "Responsive and professional design",
+          "Dark/light mode",
+          "Multilingual (FR/EN)",
+          "Smooth animations"
+        ]
+      },
+      {
+        "name": "University Projects",
+        "description": "Various applications developed as part of coursework",
+        "technologies": ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
+        "features": [
+          "Management applications",
+          "Intuitive user interfaces",
+          "Relational databases",
+          "Validation and security"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "name": "Arabic",
+        "level": "Native language",
+        "percentage": 100
+      },
+      {
+        "name": "French",
+        "level": "Fluent",
+        "percentage": 90
+      },
+      {
+        "name": "English",
+        "level": "Intermediate",
+        "percentage": 75
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to collaborate?",
+    "description": "I'm open to internship opportunities, student projects and learning experiences.",
+    "contact": "Contact me",
+    "projects": "View my projects"
+  }
+}

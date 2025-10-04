@@ -1,0 +1,41 @@
+{
+  "title": "Bienvenue sur mon portfolio !",
+  "intro": "Étudiante en informatique passionnée par le développement web. Découvrez mon parcours et mes projets d'apprentissage.",
+  "cta": {
+    "projects": "Voir mes projets",
+    "contact": "Contactez-moi",
+    "downloadCV": "Télécharger mon CV"
+  },
+  "features": {
+    "frontend": {
+      "title": "Développement Frontend",
+      "description": "Apprentissage des technologies modernes comme React, Tailwind CSS et JavaScript pour créer des interfaces utilisateur attractives."
+    },
+    "backend": {
+      "title": "Développement Backend", 
+      "description": "Étude de Node.js, Express et des bases de données pour comprendre l'architecture complète des applications web."
+    },
+    "learning": {
+      "title": "Apprentissage Continu",
+      "description": "Toujours en quête de nouvelles connaissances et technologies pour améliorer mes compétences en développement."
+    }
+  },
+  "stats": {
+    "projects": {
+      "number": "15+",
+      "label": "Projets Étudiants"
+    },
+    "learning": {
+      "number": "5+",
+      "label": "Années d'Études"
+    },
+    "technologies": {
+      "number": "10+",
+      "label": "Technologies Apprises"
+    },
+    "passion": {
+      "number": "100%",
+      "label": "Motivation"
+    }
+  }
+}

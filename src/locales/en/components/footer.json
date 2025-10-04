@@ -1,0 +1,13 @@
+{
+  "title": "Full-Stack Developer",
+  "description": "Computer science student passionate about full-stack web development. I create modern applications with React, Node.js and the latest technologies.",
+  "contact": "Contact",
+  "location": "Tunisia, Sousse",
+  "copyright": "All rights reserved.",
+  "madeWith": "Made with",
+  "inTunisia": "in Tunisia",
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  }
+}

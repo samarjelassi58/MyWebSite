@@ -1,0 +1,27 @@
+{
+  "title": "Contactez-moi",
+  "content": "Vous pouvez me joindre via le formulaire ou par email.",
+  "contactMethods": "Moyens de contact",
+  "availability": "Disponibilité",
+  "availableStatus": "Disponible pour de nouveaux projets",
+  "responseTime": "Réponse généralement sous 24h",
+  "dataProtection": "Vos données sont protégées et ne seront jamais partagées avec des tiers",
+  "methods": {
+    "email": {
+      "title": "Email",
+      "description": "Réponse sous 24h"
+    },
+    "linkedin": {
+      "title": "LinkedIn", 
+      "description": "Réseau professionnel"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Mes projets open source"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Messages instantanés"
+    }
+  }
+}
