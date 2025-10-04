@@ -1,5 +1,52 @@
 {
   "title": "My Projects",
   "subtitle": "Discover my projects and technical achievements",
-  "content": "Here are some projects I have completed..."
+  "projects": {
+    "items": [
+      {
+        "name": "Personal Portfolio",
+        "description": "Modern and responsive portfolio website showcasing my skills and projects",
+        "technologies": ["React.js", "Vite", "Tailwind CSS", "i18next", "Context API"],
+        "features": [
+          "Modern design with dark/light mode",
+          "Multilingual (French/English)",
+          "Responsive interface and animations",
+          "Modular and performant architecture"
+        ]
+      },
+      {
+        "name": "Market Analysis Platform",
+        "description": "Intelligent platform for competitor analysis and Go-To-Market strategies",
+        "technologies": ["React", "Node.js", "Python", "Artificial Intelligence", "Data Analysis"],
+        "features": [
+          "Automatic competitor research and analysis",
+          "Market trend analysis",
+          "Intelligent strategic recommendations",
+          "Modern user interface"
+        ]
+      },
+      {
+        "name": "E-commerce Site & Dashboard",
+        "description": "Complete e-commerce site with administrative dashboard",
+        "technologies": ["React.js", "Tailwind CSS"],
+        "features": [
+          "Responsive user interface",
+          "Optimized shopping experience",
+          "Order and user management",
+          "Real-time sales tracking"
+        ]
+      },
+      {
+        "name": "Car Rental Application",
+        "description": "Full-stack web application with MERN stack",
+        "technologies": ["MongoDB", "Express.js", "React.js", "Node.js"],
+        "features": [
+          "Online reservation system",
+          "Vehicle and user management",
+          "Complete administrative interface",
+          "Robust full-stack architecture"
+        ]
+      }
+    ]
+  }
 }

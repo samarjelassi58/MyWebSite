@@ -3,52 +3,48 @@
   "subtitle": "Découvrez mon parcours, mes compétences et ma passion pour le développement",
   "hero": {
     "name": "Samar Jelassi",
-    "title": "Étudiante en Développement de Systèmes d'Information",
+    "title": "Étudiante en Ingénierie Informatique",
     "location": "Sousse, Tunisie"
   },
   "navigation": {
     "experience": "Expérience",
     "skills": "Compétences", 
-    "education": "Formation",
-    "projects": "Projets"
+    "education": "Formation"
   },
   "experience": {
-    "title": "Expérience & Projets",
+    "title": "Expérience",
     "items": [
       {
-        "title": "Développement de Portfolio Personnel",
-        "organization": "Projet Personnel",
-        "period": "2024",
-        "description": "Création d'un portfolio moderne avec React et Tailwind CSS",
+        "title": "Stagiaire",
+        "organization": "Talan",
+        "period": "Juillet 2025 - Août 2025",
+        "description": "Plateforme intelligente d'analyse de marché et de stratégie Go-To-Market",
         "achievements": [
-          "Design responsive et moderne",
-          "Système de thème clair/sombre",
-          "Internationalisation FR/EN", 
-          "Optimisation des performances"
+          "Conception et développement d'une plateforme intelligente pour la recherche et l'analyse des concurrents",
+          "Analyse des tendances de marché, des opportunités de géolocalisation et du ciblage d'audience",
+          "Génération automatique de recommandations stratégiques pour l'élaboration d'une stratégie Go-To-Market"
         ]
       },
       {
-        "title": "Projets Universitaires",
-        "organization": "EPISousse",
-        "period": "2021 - 2024",
-        "description": "Développement de plusieurs applications dans le cadre des études",
+        "title": "Stagiaire",
+        "organization": "Grow Up Agency",
+        "period": "Juin 2024 - Août 2024",
+        "description": "Développement front-end d'un site e-commerce et de son dashboard administrateur",
         "achievements": [
-          "Application de gestion avec base de données",
-          "Site web e-commerce (simulation)",
-          "API REST avec documentation",
-          "Travail en équipe et méthodologie Agile"
+          "Conception et réalisation d'une interface utilisateur moderne et responsive pour un site e-commerce avec React.js et Tailwind CSS",
+          "Amélioration de l'expérience d'achat en ligne",
+          "Développement du dashboard administrateur pour la gestion des commandes, des utilisateurs et du suivi des ventes"
         ]
       },
       {
-        "title": "Stage d'Observation",
-        "organization": "Entreprise Locale",
-        "period": "Été 2023",
-        "description": "Découverte du monde professionnel et des pratiques de développement",
+        "title": "Stagiaire",
+        "organization": "ISSAT Sousse",
+        "period": "Février 2023 - Juin 2023",
+        "description": "Développement d'une application web de location de voitures",
         "achievements": [
-          "Observation des pratiques de développement",
-          "Participation aux réunions d'équipe",
-          "Apprentissage des outils professionnels",
-          "Compréhension des processus métier"
+          "Réalisation d'un site de location de voitures avec la stack MERN (MongoDB, Express.js, React.js, Node.js)",
+          "Implémentation de fonctionnalités clés : réservation en ligne, gestion des véhicules et des utilisateurs et interface administrateur",
+          "Conception d'une architecture full-stack permettant une interaction fluide entre le front-end et le back-end"
         ]
       }
     ]
@@ -62,15 +58,15 @@
       },
       "backend": {
         "title": "Backend",
-        "skills": ["Node.js", "Express.js", "PHP", "MySQL", "API REST", "JSON"]
+        "skills": ["Node.js", "Express.js", "MongoDB", "MySQL", "API REST", "MERN Stack"]
       },
       "tools": {
         "title": "Outils & Technologies",
-        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma (base)", "Linux (base)"]
+        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma", "Analyse de marché"]
       },
       "learning": {
-        "title": "En Apprentissage",
-        "skills": ["TypeScript", "MongoDB", "Docker", "Python", "Vue.js"]
+        "title": "Technologies Avancées",
+        "skills": ["Intelligence Artificielle", "Analyse de données", "Go-To-Market", "TypeScript", "Docker"]
       }
     }
   },
@@ -78,43 +74,22 @@
     "title": "Formation",
     "items": [
       {
-        "degree": "Licence Appliquée en Développement de Systèmes d'Information",
-        "school": "École Polytechnique Internationale de Sousse (EPISousse)",
-        "year": "2021 - 2024",
-        "description": "Formation spécialisée en développement web, programmation et gestion de bases de données. Acquisition de compétences en développement frontend et backend."
+        "degree": "Diplôme National d'Ingénierie Informatique",
+        "school": "EPI : École Pluridisciplinaire Internationale de Sousse",
+        "year": "En cours",
+        "description": "Formation d'ingénieur en informatique avec spécialisation en développement logiciel et systèmes intelligents."
       },
       {
-        "degree": "Baccalauréat",
-        "school": "Lycée de Sousse",
-        "year": "2021",
-        "description": "Diplôme du baccalauréat obtenu avec succès, ouvrant la voie aux études supérieures en informatique."
-      }
-    ]
-  },
-  "projects": {
-    "title": "Projets Personnels",
-    "items": [
-      {
-        "name": "Portfolio Personnel",
-        "description": "Site web moderne développé avec React et Tailwind CSS",
-        "technologies": ["React", "Tailwind CSS", "i18next", "Vite"],
-        "features": [
-          "Design responsive et professionnel",
-          "Mode sombre/clair",
-          "Multilingue (FR/EN)",
-          "Animations fluides"
-        ]
+        "degree": "Licence en Ingénierie des Systèmes Informatiques",
+        "school": "ISSAT : Institut Supérieur des Sciences Appliquées et des Technologies de Sousse",
+        "year": "2023",
+        "description": "Formation spécialisée en ingénierie des systèmes informatiques, programmation et développement d'applications."
       },
       {
-        "name": "Projets Universitaires",
-        "description": "Diverses applications développées dans le cadre des cours",
-        "technologies": ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
-        "features": [
-          "Applications de gestion",
-          "Interfaces utilisateur intuitives",
-          "Bases de données relationnelles",
-          "Validation et sécurité"
-        ]
+        "degree": "Baccalauréat Scientifique",
+        "school": "Lycée Medjez el Beb",
+        "year": "2020",
+        "description": "Baccalauréat scientifique "
       }
     ]
   },
@@ -140,7 +115,7 @@
   },
   "cta": {
     "title": "Prêt à collaborer ?",
-    "description": "Je suis ouverte aux opportunités de stage, projets étudiants et apprentissages.",
+    "description": "Je suis ouverte aux nouvelles opportunités, projets innovants et défis professionnels.",
     "contact": "Me contacter",
     "projects": "Voir mes projets"
   }

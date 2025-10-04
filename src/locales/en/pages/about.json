@@ -3,52 +3,48 @@
   "subtitle": "Discover my journey, skills and passion for development",
   "hero": {
     "name": "Samar Jelassi",
-    "title": "Information Systems Development Student",
+    "title": "Computer Engineering Student",
     "location": "Sousse, Tunisia"
   },
   "navigation": {
     "experience": "Experience",
     "skills": "Skills", 
-    "education": "Education",
-    "projects": "Projects"
+    "education": "Education"
   },
   "experience": {
-    "title": "Experience & Projects",
+    "title": "Experience",
     "items": [
       {
-        "title": "Personal Portfolio Development",
-        "organization": "Personal Project",
-        "period": "2024",
-        "description": "Created a modern portfolio using React and Tailwind CSS",
+        "title": "Intern",
+        "organization": "Talan",
+        "period": "July 2025 - August 2025",
+        "description": "Intelligent market analysis and Go-To-Market strategy platform",
         "achievements": [
-          "Responsive and modern design",
-          "Light/dark theme system",
-          "FR/EN internationalization", 
-          "Performance optimization"
+          "Design and development of an intelligent platform for competitor research and analysis",
+          "Market trends analysis, geolocation opportunities and audience targeting",
+          "Automatic generation of strategic recommendations for Go-To-Market strategy development"
         ]
       },
       {
-        "title": "University Projects",
-        "organization": "EPISousse",
-        "period": "2021 - 2024",
-        "description": "Developed several applications as part of coursework",
+        "title": "Intern",
+        "organization": "Grow Up Agency",
+        "period": "June 2024 - August 2024",
+        "description": "Front-end development of an e-commerce site and its administrative dashboard",
         "achievements": [
-          "Management application with database",
-          "E-commerce website (simulation)",
-          "REST API with documentation",
-          "Teamwork and Agile methodology"
+          "Design and implementation of a modern and responsive user interface for an e-commerce site with React.js and Tailwind CSS",
+          "Improved online shopping experience",
+          "Development of administrative dashboard for order management, users and sales tracking"
         ]
       },
       {
-        "title": "Observation Internship",
-        "organization": "Local Company",
-        "period": "Summer 2023",
-        "description": "Discovery of professional environment and development practices",
+        "title": "Intern",
+        "organization": "ISSAT Sousse",
+        "period": "February 2023 - June 2023",
+        "description": "Development of a car rental web application",
         "achievements": [
-          "Observed development practices",
-          "Participated in team meetings",
-          "Learned professional tools",
-          "Understood business processes"
+          "Implementation of a car rental site with MERN stack (MongoDB, Express.js, React.js, Node.js)",
+          "Implementation of key features: online booking, vehicle and user management and administrative interface",
+          "Design of a full-stack architecture allowing smooth interaction between front-end and back-end"
         ]
       }
     ]
@@ -62,15 +58,15 @@
       },
       "backend": {
         "title": "Backend",
-        "skills": ["Node.js", "Express.js", "PHP", "MySQL", "REST API", "JSON"]
+        "skills": ["Node.js", "Express.js", "MongoDB", "MySQL", "REST API", "MERN Stack"]
       },
       "tools": {
         "title": "Tools & Technologies",
-        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma (basic)", "Linux (basic)"]
+        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma", "Market Analysis"]
       },
       "learning": {
-        "title": "Currently Learning",
-        "skills": ["TypeScript", "MongoDB", "Docker", "Python", "Vue.js"]
+        "title": "Advanced Technologies",
+        "skills": ["Artificial Intelligence", "Data Analysis", "Go-To-Market", "TypeScript", "Docker"]
       }
     }
   },
@@ -78,43 +74,22 @@
     "title": "Education",
     "items": [
       {
-        "degree": "Applied Bachelor's in Information Systems Development",
-        "school": "Polytechnic International School of Sousse (EPISousse)",
-        "year": "2021 - 2024",
-        "description": "Specialized training in web development, programming and database management. Acquired skills in frontend and backend development."
+        "degree": "National Diploma in Computer Engineering",
+        "school": "EPI: Polytechnic International School of Sousse",
+        "year": "In Progress",
+        "description": "Computer engineering training with specialization in software development and intelligent systems."
       },
       {
-        "degree": "High School Diploma",
-        "school": "Sousse High School",
-        "year": "2021",
-        "description": "Successfully obtained high school diploma, paving the way for higher education in computer science."
-      }
-    ]
-  },
-  "projects": {
-    "title": "Personal Projects",
-    "items": [
-      {
-        "name": "Personal Portfolio",
-        "description": "Modern website developed with React and Tailwind CSS",
-        "technologies": ["React", "Tailwind CSS", "i18next", "Vite"],
-        "features": [
-          "Responsive and professional design",
-          "Dark/light mode",
-          "Multilingual (FR/EN)",
-          "Smooth animations"
-        ]
+        "degree": "Bachelor's in Computer Systems Engineering",
+        "school": "ISSAT: Higher Institute of Applied Sciences and Technology of Sousse",
+        "year": "2023",
+        "description": "Specialized training in computer systems engineering, programming and application development."
       },
       {
-        "name": "University Projects",
-        "description": "Various applications developed as part of coursework",
-        "technologies": ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
-        "features": [
-          "Management applications",
-          "Intuitive user interfaces",
-          "Relational databases",
-          "Validation and security"
-        ]
+        "degree": "Scientific Baccalaureate",
+        "school": "Medjez el Beb High School",
+        "year": "2020",
+        "description": "Scientific baccalaureate"
       }
     ]
   },
@@ -140,7 +115,7 @@
   },
   "cta": {
     "title": "Ready to collaborate?",
-    "description": "I'm open to internship opportunities, student projects and learning experiences.",
+    "description": "I'm open to new opportunities, innovative projects and professional challenges.",
     "contact": "Contact me",
     "projects": "View my projects"
   }

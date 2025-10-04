@@ -1,5 +1,53 @@
 {
   "title": "Mes Projets",
   "subtitle": "Découvrez mes projets et réalisations techniques",
-  "content": "Voici quelques projets réalisés..."
+  "projects": {
+
+    "items": [
+      {
+        "name": "Portfolio Personnel",
+        "description": "Site portfolio moderne et responsive présentant mes compétences et projets",
+        "technologies": ["React.js", "Vite", "Tailwind CSS", "i18next", "Context API"],
+        "features": [
+          "Design moderne avec mode sombre/clair",
+          "Multilingue (Français/Anglais)",
+          "Interface responsive et animations",
+          "Architecture modulaire et performante"
+        ]
+      },
+      {
+        "name": "Plateforme d'Analyse de Marché",
+        "description": "Plateforme intelligente pour l'analyse des concurrents et stratégies Go-To-Market",
+        "technologies": ["React", "Node.js", "Python", "Intelligence Artificielle", "Analyse de données"],
+        "features": [
+          "Recherche et analyse automatique des concurrents",
+          "Analyse des tendances de marché",
+          "Recommandations stratégiques intelligentes",
+          "Interface utilisateur moderne"
+        ]
+      },
+      {
+        "name": "Site E-commerce & Dashboard",
+        "description": "Site e-commerce complet avec dashboard administrateur",
+        "technologies": ["React.js", "Tailwind CSS"],
+        "features": [
+          "Interface utilisateur responsive",
+          "Expérience d'achat optimisée",
+          "Gestion des commandes et utilisateurs",
+          "Suivi des ventes en temps réel"
+        ]
+      },
+      {
+        "name": "Application de Location de Voitures",
+        "description": "Application web full-stack avec la stack MERN",
+        "technologies": ["MongoDB", "Express.js", "React.js", "Node.js"],
+        "features": [
+          "Système de réservation en ligne",
+          "Gestion des véhicules et utilisateurs",
+          "Interface administrateur complète",
+          "Architecture full-stack robuste"
+        ]
+      }
+    ]
+  }
 }
