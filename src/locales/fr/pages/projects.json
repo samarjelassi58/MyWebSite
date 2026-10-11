@@ -1,53 +1,59 @@
 {
-  "title": "Mes Projets",
-  "subtitle": "Découvrez mes projets et réalisations techniques",
+  "title": "Expériences & Projets",
+  "subtitle": "Sélection de réalisations professionnelles et académiques",
   "projects": {
 
     "items": [
       {
-        "name": "Portfolio Personnel",
-        "description": "Site portfolio moderne et responsive présentant mes compétences et projets",
-        "technologies": ["React.js", "Vite", "Tailwind CSS", "i18next", "Context API"],
+        "name": "BiodyConnect - Migration Mobile",
+        "description": "Migration d'une application mobile vers React Native (Expo) pour un environnement médical connecté",
+        "technologies": ["React Native", "Expo", "REST API", "BLE", "Offline-First"],
         "features": [
-          "Design moderne avec mode sombre/clair",
-          "Multilingue (Français/Anglais)",
-          "Interface responsive et animations",
-          "Architecture modulaire et performante"
+          "Migration Ionic/Angular vers React Native",
+          "Synchronisation hors ligne et reprise réseau",
+          "Intégration Bluetooth Low Energy",
+          "Optimisation UX et performance"
         ]
       },
       {
         "name": "Plateforme d'Analyse de Marché",
-        "description": "Plateforme intelligente pour l'analyse des concurrents et stratégies Go-To-Market",
-        "technologies": ["React", "Node.js", "Python", "Intelligence Artificielle", "Analyse de données"],
+        "description": "Plateforme IA pour l'analyse concurrentielle et la stratégie Go-To-Market",
+        "technologies": ["Python", "LangChain", "LLM", "Tavily", "Data Analysis"],
         "features": [
-          "Recherche et analyse automatique des concurrents",
+          "Deep search automatisé des concurrents",
           "Analyse des tendances de marché",
-          "Recommandations stratégiques intelligentes",
-          "Interface utilisateur moderne"
+          "Ciblage intelligent des audiences",
+          "Recommandations stratégiques générées automatiquement"
         ]
       },
       {
-        "name": "Site E-commerce & Dashboard",
-        "description": "Site e-commerce complet avec dashboard administrateur",
+        "name": "E-commerce & Dashboard Admin",
+        "description": "Conception front-end d'un site e-commerce et dashboard de gestion",
         "technologies": ["React.js", "Tailwind CSS"],
         "features": [
-          "Interface utilisateur responsive",
-          "Expérience d'achat optimisée",
+          "Interface moderne et responsive",
+          "Expérience d'achat améliorée",
           "Gestion des commandes et utilisateurs",
-          "Suivi des ventes en temps réel"
+          "Suivi des ventes via dashboard"
         ]
       },
       {
-        "name": "Application de Location de Voitures",
-        "description": "Application web full-stack avec la stack MERN",
-        "technologies": ["MongoDB", "Express.js", "React.js", "Node.js"],
+        "name": "PFA - Gestion Scolaire Multi-rôles",
+        "description": "Application mobile et web pour élèves, parents et administrateurs",
+        "technologies": ["React Native", "React.js", "Node.js", "REST API"],
         "features": [
-          "Système de réservation en ligne",
-          "Gestion des véhicules et utilisateurs",
-          "Interface administrateur complète",
-          "Architecture full-stack robuste"
+          "App mobile pour élèves et parents",
+          "Interface web d'administration",
+          "Gestion des utilisateurs, classes et données scolaires",
+          "Architecture multi-rôles cohérente"
         ]
       }
     ]
+  },
+  "cta": {
+    "title": "Intéressé(e) par une collaboration ?",
+    "description": "Discutons de vos besoins et voyons comment je peux apporter de la valeur à votre équipe.",
+    "contact": "Me contacter",
+    "about": "En savoir plus"
   }
 }

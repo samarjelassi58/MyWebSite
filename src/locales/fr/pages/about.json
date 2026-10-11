@@ -3,8 +3,8 @@
   "subtitle": "Découvrez mon parcours, mes compétences et ma passion pour le développement",
   "hero": {
     "name": "Samar Jelassi",
-    "title": "Étudiante en Ingénierie Informatique",
-    "location": "Sousse, Tunisie"
+    "title": "Ingénieure en génie informatique | M2 IA & Machine Learning",
+    "location": "Montrouge, Île-de-France"
   },
   "navigation": {
     "experience": "Expérience",
@@ -16,13 +16,26 @@
     "items": [
       {
         "title": "Stagiaire",
+        "organization": "Continuous Net",
+        "period": "Février 2026 - Juin 2026",
+        "description": "Développement de l'application mobile BiodyConnect",
+        "achievements": [
+          "Migration d'une application mobile Ionic/Angular vers React Native (Expo)",
+          "Mise en place d'une architecture mobile moderne avec API REST",
+          "Synchronisation hors ligne (Offline-First) et optimisation des performances",
+          "Intégration Bluetooth Low Energy (BLE) pour dispositifs médicaux"
+        ]
+      },
+      {
+        "title": "Stagiaire",
         "organization": "Talan",
         "period": "Juillet 2025 - Août 2025",
         "description": "Plateforme intelligente d'analyse de marché et de stratégie Go-To-Market",
         "achievements": [
-          "Conception et développement d'une plateforme intelligente pour la recherche et l'analyse des concurrents",
-          "Analyse des tendances de marché, des opportunités de géolocalisation et du ciblage d'audience",
-          "Génération automatique de recommandations stratégiques pour l'élaboration d'une stratégie Go-To-Market"
+          "Conception d'une plateforme intelligente en Python basée sur LangChain",
+          "Intégration de LLM pré-entraînés et d'outils Deep Search (Tavily)",
+          "Analyse des tendances de marché, opportunités de géolocalisation et ciblage d'audience",
+          "Génération automatisée de recommandations stratégiques Go-To-Market"
         ]
       },
       {
@@ -54,19 +67,19 @@
     "categories": {
       "frontend": {
         "title": "Frontend",
-        "skills": ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"]
+        "skills": ["React.js", "React Native", "Flutter", "JavaScript", "Tailwind CSS", "Bootstrap", "Responsive Design"]
       },
       "backend": {
         "title": "Backend",
-        "skills": ["Node.js", "Express.js", "MongoDB", "MySQL", "API REST", "MERN Stack"]
+        "skills": ["Node.js", "Express.js", "Python", "Java", "PHP", "Spring Boot", "API REST", "MERN Stack"]
       },
       "tools": {
         "title": "Outils & Technologies",
-        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma", "Analyse de marché"]
+        "skills": ["Selenium", "Cucumber", "Git", "GitHub", "VS Code", "Vite", "npm", "Postman"]
       },
       "learning": {
         "title": "Technologies Avancées",
-        "skills": ["Intelligence Artificielle", "Analyse de données", "Go-To-Market", "TypeScript", "Docker"]
+        "skills": ["Machine Learning", "LLM", "LangChain", "Deep Search", "BLE", "Offline-First"]
       }
     }
   },
@@ -74,15 +87,21 @@
     "title": "Formation",
     "items": [
       {
+        "degree": "Mastère 2 Intelligence Artificielle & Machine Learning",
+        "school": "PSTB : Paris School of Technology & Business",
+        "year": "2026 - 2027",
+        "description": "Formation spécialisée en IA appliquée, apprentissage automatique et systèmes intelligents orientés produit."
+      },
+      {
         "degree": "Diplôme National d'Ingénierie Informatique",
         "school": "EPI : École Pluridisciplinaire Internationale de Sousse",
-        "year": "En cours",
+        "year": "2023 - 2026",
         "description": "Formation d'ingénieur en informatique avec spécialisation en développement logiciel et systèmes intelligents."
       },
       {
         "degree": "Licence en Ingénierie des Systèmes Informatiques",
         "school": "ISSAT : Institut Supérieur des Sciences Appliquées et des Technologies de Sousse",
-        "year": "2023",
+        "year": "2020 - 2023",
         "description": "Formation spécialisée en ingénierie des systèmes informatiques, programmation et développement d'applications."
       },
       {
@@ -103,20 +122,20 @@
       },
       {
         "name": "Français",
-        "level": "Courant",
-        "percentage": 90
+        "level": "B2 (TCF)",
+        "percentage": 85
       },
       {
         "name": "Anglais",
-        "level": "Intermédiaire",
-        "percentage": 75
+        "level": "B1 (TOEIC)",
+        "percentage": 70
       }
     ]
   },
   "cta": {
-    "title": "Prête à collaborer ?",
-    "description": "Je suis ouverte aux nouvelles opportunités, projets innovants et défis professionnels.",
+    "title": "Ouverte à un stage en IA/ML à Paris",
+    "description": "Je recherche une opportunité pour contribuer à des projets data, IA et logiciels à fort impact.",
     "contact": "Me contacter",
-    "projects": "Voir mes projets"
+    "projects": "Voir mes réalisations"
   }
 }

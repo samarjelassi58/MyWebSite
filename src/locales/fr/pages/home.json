@@ -1,41 +1,41 @@
 {
-  "title": "Bienvenue sur mon portfolio !",
-  "intro": "Étudiante en informatique passionnée par le développement web. Découvrez mon parcours et mes projets d'apprentissage.",
+  "title": "Samar Jelassi",
+  "intro": "Étudiante en M2 Intelligence Artificielle & Machine Learning à Paris. Je recherche un stage en IA/ML et développement logiciel pour contribuer à des projets ambitieux.",
   "cta": {
-    "projects": "Voir mes projets",
-    "contact": "Contactez-moi",
+    "projects": "Voir mes réalisations",
+    "contact": "Me contacter",
     "downloadCV": "Télécharger mon CV"
   },
   "features": {
     "frontend": {
-      "title": "Développement Frontend",
-      "description": "Apprentissage des technologies modernes comme React, Tailwind CSS et JavaScript pour créer des interfaces utilisateur attractives."
+      "title": "Frontend & Mobile",
+      "description": "Interfaces modernes et responsives avec React, React Native (Expo), Tailwind CSS et Flutter."
     },
     "backend": {
-      "title": "Développement Backend", 
-      "description": "Étude de Node.js, Express et des bases de données pour comprendre l'architecture complète des applications web."
+      "title": "Backend & Data", 
+      "description": "Conception d'API et services avec Node.js, Python, Java et Spring Boot, avec une approche orientée architecture." 
     },
     "learning": {
-      "title": "Apprentissage Continu",
-      "description": "Toujours en quête de nouvelles connaissances et technologies pour améliorer mes compétences en développement."
+      "title": "IA & Innovation",
+      "description": "Expérience sur les LLM, la recherche augmentée et les solutions intelligentes orientées produit." 
     }
   },
   "stats": {
     "projects": {
-      "number": "15+",
-      "label": "Projets Étudiants"
+      "number": "4",
+      "label": "Stages réalisés"
     },
     "learning": {
-      "number": "5+",
-      "label": "Années d'Études"
+      "number": "2026-2027", 
+      "label": "M2 IA & ML à Paris"
     },
     "technologies": {
-      "number": "10+",
-      "label": "Technologies Apprises"
+      "number": "20+",
+      "label": "Technologies pratiquées"
     },
     "passion": {
       "number": "100%",
-      "label": "Motivation"
+      "label": "Motivation & rigueur"
     }
   }
 }

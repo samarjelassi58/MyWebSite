@@ -1,15 +1,19 @@
 {
   "title": "Contactez-moi",
-  "content": "Vous pouvez me joindre via le formulaire ou par email.",
+  "content": "Je suis à la recherche d'un stage en IA/ML ou développement logiciel. Contactez-moi pour échanger rapidement.",
   "contactMethods": "Moyens de contact",
   "availability": "Disponibilité",
-  "availableStatus": "Disponible pour de nouveaux projets",
-  "responseTime": "Réponse généralement sous 24h",
+  "availableStatus": "Disponible pour un stage (Paris / hybride)",
+  "responseTime": "Réponse généralement le jour même",
   "dataProtection": "Vos données sont protégées et ne seront jamais partagées avec des tiers",
   "methods": {
     "email": {
       "title": "Email",
       "description": "Réponse sous 24h"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "description": "Disponible sur appel ou WhatsApp"
     },
     "linkedin": {
       "title": "LinkedIn", 

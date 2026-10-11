@@ -17,16 +17,16 @@ const Header = () => {
   const currentLang = i18n.language;
   
   return (
-    <header className="glass-morphism sticky top-0 z-50 border-b border-white/20 dark:border-gray-800/30">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-50/50 via-white/50 to-purple-50/50 dark:from-gray-900/80 dark:via-gray-800/80 dark:to-gray-900/80 backdrop-blur-xl"></div>
+    <header className="glass-morphism sticky top-0 z-50 border-b border-black/5 dark:border-slate-700/40">
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-50/70 via-white/80 to-cyan-50/60 dark:from-slate-900/80 dark:via-slate-800/80 dark:to-slate-900/80 backdrop-blur-xl"></div>
       
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo/Brand Section */}
           <Link to="/" className="group flex items-center space-x-3">
-            <div className="relative w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-lg">
+            <div className="relative w-10 h-10 bg-gradient-to-br from-slate-900 to-slate-700 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-lg">
               <span className="text-white font-bold text-lg">SJ</span>
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <div className="hidden sm:block">
               <h1 className="text-gradient text-xl font-bold tracking-tight group-hover:scale-105 transition-transform duration-300">
@@ -44,14 +44,13 @@ const Header = () => {
                 to={link.to}
                 className={`group relative px-4 py-2.5 rounded-lg font-medium text-sm transition-all duration-300 flex items-center space-x-2 ${
                   location.pathname === link.to 
-                    ? "bg-blue-500 text-white shadow-lg shadow-blue-500/25" 
+                    ? "bg-slate-900 text-white shadow-lg" 
                     : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800/50"
                 }`}
               >
-                <span className="text-base">{link.icon}</span>
                 <span>{t(link.labelKey)}</span>
                 {location.pathname !== link.to && (
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-cyan-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 )}
               </Link>
             ))}
@@ -66,7 +65,7 @@ const Header = () => {
                   onClick={() => i18n.changeLanguage(lang)}
                   className={`px-3 py-1.5 rounded-md font-semibold text-xs transition-all duration-300 ${
                     currentLang === lang
-                      ? 'bg-blue-500 text-white shadow-sm'
+                        ? 'bg-slate-900 text-white shadow-sm'
                       : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
                   }`}
                 >
@@ -103,11 +102,10 @@ const Header = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`flex items-center space-x-3 px-4 py-3 rounded-lg font-medium transition-all duration-300 ${
                   location.pathname === link.to 
-                    ? "bg-blue-500 text-white shadow-lg" 
+                    ? "bg-slate-900 text-white shadow-lg" 
                     : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800/50"
                 }`}
               >
-                <span className="text-lg">{link.icon}</span>
                 <span>{t(link.labelKey)}</span>
               </Link>
             ))}

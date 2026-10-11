@@ -12,9 +12,20 @@ export default function Contact() {
         </svg>
       ),
       title: t("contact:methods.email.title"),
-      value: "samar.jelassi@episousse.com.tn",
-      href: "mailto:samar.jelassi@episousse.com.tn",
+      value: "samar.jelassi@outlook.fr",
+      href: "mailto:samar.jelassi@outlook.fr",
       description: t("contact:methods.email.description")
+    },
+    {
+      icon: (
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.68l1.5 4.5a1 1 0 01-.5 1.2l-2.26 1.13a11.04 11.04 0 005.27 5.27l1.13-2.26a1 1 0 011.2-.5l4.5 1.5a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C10.16 21 3 13.84 3 5V5z" />
+        </svg>
+      ),
+      title: t("contact:methods.phone.title"),
+      value: "+33 06 20 14 57 90",
+      href: "tel:+330620145790",
+      description: t("contact:methods.phone.description")
     },
     {
       icon: (
@@ -45,8 +56,8 @@ export default function Contact() {
         </svg>
       ),
       title: t("contact:methods.whatsapp.title"),
-      value: "+216 58774325",
-      href: "https://wa.me/21658774325",
+      value: "+33 06 20 14 57 90",
+      href: "https://wa.me/33620145790",
       description: t("contact:methods.whatsapp.description")
     }
   ];
@@ -75,7 +86,7 @@ export default function Contact() {
             <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
               {t("contact:contactMethods")}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 max-w-6xl mx-auto">
               {contactMethods.map((method, index) => (
                 <a
                   key={method.title}

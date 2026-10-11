@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -7,17 +8,17 @@
 
 /* CSS Variables for Modern Design System */
 :root {
-  /* Primary Colors - Modern Blue Palette */
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbeafe;
-  --color-primary-200: #bfdbfe;
-  --color-primary-300: #93c5fd;
-  --color-primary-400: #60a5fa;
-  --color-primary-500: #3b82f6;
-  --color-primary-600: #2563eb;
-  --color-primary-700: #1d4ed8;
-  --color-primary-800: #1e40af;
-  --color-primary-900: #1e3a8a;
+  /* Primary Colors - Graphite/Teal Palette */
+  --color-primary-50: #ecfeff;
+  --color-primary-100: #cffafe;
+  --color-primary-200: #a5f3fc;
+  --color-primary-300: #67e8f9;
+  --color-primary-400: #22d3ee;
+  --color-primary-500: #14b8a6;
+  --color-primary-600: #0f766e;
+  --color-primary-700: #115e59;
+  --color-primary-800: #134e4a;
+  --color-primary-900: #042f2e;
 
   /* Neutral Colors */
   --color-neutral-50: #f8fafc;
@@ -32,23 +33,24 @@
   --color-neutral-900: #0f172a;
 
   /* Accent Colors */
-  --color-accent-purple: #8b5cf6;
-  --color-accent-green: #10b981;
+  --color-accent-purple: #111827;
+  --color-accent-green: #0f766e;
   --color-accent-orange: #f59e0b;
-  --color-accent-red: #ef4444;
+  --color-accent-red: #dc2626;
 
   /* Background Gradients */
-  --bg-gradient-light: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --bg-gradient-dark: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-  --bg-mesh-light: radial-gradient(at 40% 20%, hsla(228, 62%, 59%, 0.1) 0px, transparent 50%), 
-                    radial-gradient(at 80% 0%, hsla(189, 70%, 73%, 0.1) 0px, transparent 50%),
-                    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 0.1) 0px, transparent 50%);
-  --bg-mesh-dark: radial-gradient(at 40% 20%, hsla(228, 62%, 59%, 0.05) 0px, transparent 50%), 
-                  radial-gradient(at 80% 0%, hsla(189, 70%, 73%, 0.05) 0px, transparent 50%),
-                  radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 0.05) 0px, transparent 50%);
+  --bg-gradient-light: linear-gradient(130deg, #fafaf9 0%, #f5f5f4 45%, #ecfeff 100%);
+  --bg-gradient-dark: linear-gradient(135deg, #0b1220 0%, #111827 60%, #1f2937 100%);
+  --bg-mesh-light: radial-gradient(at 10% 10%, rgba(20, 184, 166, 0.09) 0px, transparent 55%),
+                    radial-gradient(at 90% 0%, rgba(17, 24, 39, 0.07) 0px, transparent 60%),
+                    radial-gradient(at 50% 100%, rgba(148, 163, 184, 0.09) 0px, transparent 55%);
+  --bg-mesh-dark: radial-gradient(at 20% 0%, rgba(20, 184, 166, 0.12) 0px, transparent 55%),
+                  radial-gradient(at 100% 20%, rgba(148, 163, 184, 0.08) 0px, transparent 50%),
+                  radial-gradient(at 0% 100%, rgba(51, 65, 85, 0.12) 0px, transparent 55%);
 
   /* Typography */
-  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-display: 'Space Grotesk', 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-family-mono: 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, monospace;
   
   /* Spacing Scale */
@@ -80,18 +82,18 @@
 :root {
   --color-text-primary: var(--color-neutral-900);
   --color-text-secondary: var(--color-neutral-600);
-  --color-bg-primary: var(--color-neutral-50);
-  --color-bg-secondary: white;
-  --color-border: var(--color-neutral-200);
+  --color-bg-primary: #fafaf9;
+  --color-bg-secondary: #ffffff;
+  --color-border: #d6d3d1;
 }
 
 /* Dark Mode Variables */
 .dark {
   --color-text-primary: var(--color-neutral-100);
   --color-text-secondary: var(--color-neutral-400);
-  --color-bg-primary: var(--color-neutral-900);
-  --color-bg-secondary: var(--color-neutral-800);
-  --color-border: var(--color-neutral-700);
+  --color-bg-primary: #0b1220;
+  --color-bg-secondary: #111827;
+  --color-border: #334155;
 }
 
 /* Base Styles Reset & Modern Defaults */
@@ -129,7 +131,7 @@ body::before {
   bottom: 0;
   background: var(--bg-mesh-light);
   z-index: -2;
-  opacity: 0.7;
+  opacity: 0.95;
 }
 
 .dark body::before {
@@ -144,14 +146,13 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: 
-    radial-gradient(circle at 25% 25%, var(--color-primary-500) 0px, transparent 1px),
-    radial-gradient(circle at 75% 75%, var(--color-accent-purple) 0px, transparent 1px),
-    radial-gradient(circle at 50% 50%, var(--color-accent-green) 0px, transparent 1px);
-  background-size: 100px 100px, 150px 150px, 80px 80px;
-  animation: particles 20s linear infinite;
+  background-image:
+    linear-gradient(0deg, rgba(15, 23, 42, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.025) 1px, transparent 1px);
+  background-size: 34px 34px;
+  animation: particles 36s linear infinite;
   z-index: -1;
-  opacity: 0.03;
+  opacity: 1;
 }
 
 @keyframes particles {
@@ -214,14 +215,22 @@ body::after {
 
 /* Modern Typography Classes */
 .text-gradient {
-  background: linear-gradient(135deg, var(--color-primary-600), var(--color-accent-purple));
+  background: linear-gradient(125deg, #0f172a 0%, #0f766e 55%, #14b8a6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+h1,
+h2,
+h3,
+.display-font {
+  font-family: var(--font-family-display);
+  letter-spacing: -0.02em;
+}
+
 .dark .text-gradient {
-  background: linear-gradient(135deg, var(--color-primary-400), var(--color-accent-purple));
+  background: linear-gradient(125deg, #f8fafc 0%, #67e8f9 60%, #2dd4bf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -229,23 +238,23 @@ body::after {
 
 /* Glass Morphism Effect */
 .glass-morphism {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-xl);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
 }
 
 .dark .glass-morphism {
-  background: rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(15, 23, 42, 0.58);
+  border-color: rgba(148, 163, 184, 0.2);
 }
 
 /* Modern Button Styles */
 .btn-modern {
   position: relative;
   padding: var(--space-sm) var(--space-lg);
-  background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600));
+  background: linear-gradient(135deg, #0f172a, #1f2937);
   color: white;
   border: none;
   border-radius: var(--radius-lg);
@@ -257,7 +266,7 @@ body::after {
   gap: var(--space-xs);
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.2);
   overflow: hidden;
 }
 
@@ -268,14 +277,14 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--color-primary-600), var(--color-accent-purple));
+  background: linear-gradient(135deg, #0f766e, #14b8a6);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .btn-modern:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-xl), var(--shadow-glow);
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.28);
 }
 
 .btn-modern:hover::before {
@@ -293,7 +302,7 @@ body::after {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   padding: var(--space-xl);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
@@ -306,14 +315,14 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--color-primary-50), transparent);
+  background: linear-gradient(145deg, rgba(20, 184, 166, 0.08), transparent 62%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .card-modern:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-2xl);
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.14);
 }
 
 .card-modern:hover::before {
@@ -321,7 +330,91 @@ body::after {
 }
 
 .dark .card-modern::before {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), transparent);
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.08), transparent);
+}
+
+/* Premium section wrappers */
+.section-shell {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.68));
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.dark .section-shell {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.58));
+  border-color: rgba(148, 163, 184, 0.2);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(20, 184, 166, 0.35);
+  color: #0f766e;
+  background: rgba(240, 253, 250, 0.8);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.dark .eyebrow {
+  color: #5eead4;
+  border-color: rgba(45, 212, 191, 0.35);
+  background: rgba(15, 118, 110, 0.15);
+}
+
+.chip {
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: rgba(255, 255, 255, 0.78);
+  color: #1f2937;
+  border-radius: 999px;
+  padding: 0.48rem 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.dark .chip {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: rgba(148, 163, 184, 0.2);
+  color: #e2e8f0;
+}
+
+.stat-tile {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+.dark .stat-tile {
+  background: rgba(30, 41, 59, 0.72);
+  border-color: rgba(148, 163, 184, 0.2);
+}
+
+.cta-secondary {
+  border: 1px solid rgba(15, 23, 42, 0.2);
+  background: rgba(255, 255, 255, 0.9);
+  color: #0f172a;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.cta-secondary:hover {
+  border-color: rgba(20, 184, 166, 0.7);
+  color: #0f766e;
+  transform: translateY(-1px);
+}
+
+.dark .cta-secondary {
+  background: rgba(30, 41, 59, 0.8);
+  color: #f8fafc;
+  border-color: rgba(148, 163, 184, 0.25);
 }
 
 /* Improved Animation Classes */

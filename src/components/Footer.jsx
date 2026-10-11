@@ -50,14 +50,22 @@ const Footer = () => {
                 <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26c.3.16.67.16.97 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:samar.jelassi@episousse.com.tn" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors">
-                  samar.jelassi@episousse.com.tn
+                <a href="mailto:samar.jelassi@outlook.fr" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors">
+                  samar.jelassi@outlook.fr
+                </a>
+              </div>
+              <div className="flex items-center space-x-3">
+                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.68l1.5 4.5a1 1 0 01-.5 1.2l-2.26 1.13a11.04 11.04 0 005.27 5.27l1.13-2.26a1 1 0 011.2-.5l4.5 1.5a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C10.16 21 3 13.84 3 5V5z" />
+                </svg>
+                <a href="tel:+330620145790" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm transition-colors">
+                  +33 06 20 14 57 90
                 </a>
               </div>
             </div>
             
             {/* Social Links */}
-            <div className="flex space-x-8">
+            <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/in/samarjelassi" 
                 target="_blank" 
@@ -79,7 +87,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://wa.me/21658774325" 
+                href="https://wa.me/33620145790" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-green-100 dark:hover:bg-green-900 transition-colors"

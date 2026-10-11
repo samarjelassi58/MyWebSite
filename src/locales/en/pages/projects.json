@@ -1,52 +1,58 @@
 {
-  "title": "My Projects",
-  "subtitle": "Discover my projects and technical achievements",
+  "title": "Experience & Projects",
+  "subtitle": "Selected professional and academic work",
   "projects": {
     "items": [
       {
-        "name": "Personal Portfolio",
-        "description": "Modern and responsive portfolio website showcasing my skills and projects",
-        "technologies": ["React.js", "Vite", "Tailwind CSS", "i18next", "Context API"],
+        "name": "BiodyConnect - Mobile Migration",
+        "description": "Migration of a connected medical mobile app to React Native (Expo)",
+        "technologies": ["React Native", "Expo", "REST API", "BLE", "Offline-First"],
         "features": [
-          "Modern design with dark/light mode",
-          "Multilingual (French/English)",
-          "Responsive interface and animations",
-          "Modular and performant architecture"
+          "Ionic/Angular to React Native migration",
+          "Offline synchronization and network recovery",
+          "Bluetooth Low Energy integration",
+          "UX and performance optimization"
         ]
       },
       {
         "name": "Market Analysis Platform",
-        "description": "Intelligent platform for competitor analysis and Go-To-Market strategies",
-        "technologies": ["React", "Node.js", "Python", "Artificial Intelligence", "Data Analysis"],
+        "description": "AI platform for competitive analysis and Go-To-Market strategy",
+        "technologies": ["Python", "LangChain", "LLM", "Tavily", "Data Analysis"],
         "features": [
-          "Automatic competitor research and analysis",
+          "Automated deep competitor search",
           "Market trend analysis",
-          "Intelligent strategic recommendations",
-          "Modern user interface"
+          "Intelligent audience targeting",
+          "Auto-generated strategic recommendations"
         ]
       },
       {
-        "name": "E-commerce Site & Dashboard",
-        "description": "Complete e-commerce site with administrative dashboard",
+        "name": "E-commerce & Admin Dashboard",
+        "description": "Front-end development of an e-commerce website and management dashboard",
         "technologies": ["React.js", "Tailwind CSS"],
         "features": [
-          "Responsive user interface",
-          "Optimized shopping experience",
+          "Modern responsive interface",
+          "Enhanced shopping experience",
           "Order and user management",
-          "Real-time sales tracking"
+          "Sales monitoring dashboard"
         ]
       },
       {
-        "name": "Car Rental Application",
-        "description": "Full-stack web application with MERN stack",
-        "technologies": ["MongoDB", "Express.js", "React.js", "Node.js"],
+        "name": "Final-Year Project - Multi-role School App",
+        "description": "Mobile and web app for students, parents, and administrators",
+        "technologies": ["React Native", "React.js", "Node.js", "REST API"],
         "features": [
-          "Online reservation system",
-          "Vehicle and user management",
-          "Complete administrative interface",
-          "Robust full-stack architecture"
+          "Mobile app for students and parents",
+          "Administrative web interface",
+          "User, class, and school data management",
+          "Consistent multi-role architecture"
         ]
       }
     ]
+  },
+  "cta": {
+    "title": "Interested in collaborating?",
+    "description": "Let's discuss your needs and how I can contribute to your team.",
+    "contact": "Contact me",
+    "about": "Learn more"
   }
 }

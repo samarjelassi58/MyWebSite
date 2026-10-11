@@ -1,41 +1,41 @@
 {
-  "title": "Welcome to my portfolio!",
-  "intro": "Computer science student passionate about web development. Discover my learning journey and projects.",
+  "title": "Samar Jelassi",
+  "intro": "MSc student in Artificial Intelligence & Machine Learning in Paris. I am looking for an internship in AI/ML and software engineering.",
   "cta": {
-    "projects": "View my projects", 
-    "contact": "Contact me",
+    "projects": "View my work", 
+    "contact": "Get in touch",
     "downloadCV": "Download my CV"
   },
   "features": {
     "frontend": {
-      "title": "Frontend Development",
-      "description": "Learning modern technologies like React, Tailwind CSS and JavaScript to create attractive user interfaces."
+      "title": "Frontend & Mobile",
+      "description": "Modern and responsive interfaces with React, React Native (Expo), Tailwind CSS, and Flutter."
     },
     "backend": {
-      "title": "Backend Development",
-      "description": "Studying Node.js, Express and databases to understand complete web application architecture."
+      "title": "Backend & Data",
+      "description": "API and service development with Node.js, Python, Java, and Spring Boot with an architecture-first mindset."
     },
     "learning": {
-      "title": "Continuous Learning",
-      "description": "Always seeking new knowledge and technologies to improve my development skills."
+      "title": "AI & Innovation",
+      "description": "Hands-on work with LLM workflows, deep search tools, and intelligent product-oriented solutions."
     }
   },
   "stats": {
     "projects": {
-      "number": "15+",
-      "label": "Student Projects"
+      "number": "4",
+      "label": "Completed internships"
     },
     "learning": {
-      "number": "5+", 
-      "label": "Years of Study"
+      "number": "2026-2027", 
+      "label": "MSc AI & ML in Paris"
     },
     "technologies": {
-      "number": "10+",
-      "label": "Technologies Learned"
+      "number": "20+",
+      "label": "Technologies used"
     },
     "passion": {
       "number": "100%",
-      "label": "Motivation"
+      "label": "Motivation & discipline"
     }
   }
 }

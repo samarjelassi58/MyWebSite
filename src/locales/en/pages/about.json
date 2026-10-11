@@ -3,8 +3,8 @@
   "subtitle": "Discover my journey, skills and passion for development",
   "hero": {
     "name": "Samar Jelassi",
-    "title": "Computer Engineering Student",
-    "location": "Sousse, Tunisia"
+    "title": "Computer Engineering Graduate | MSc AI & Machine Learning",
+    "location": "Montrouge, Île-de-France"
   },
   "navigation": {
     "experience": "Experience",
@@ -16,13 +16,26 @@
     "items": [
       {
         "title": "Intern",
+        "organization": "Continuous Net",
+        "period": "February 2026 - June 2026",
+        "description": "Development of the BiodyConnect mobile application",
+        "achievements": [
+          "Migrated a mobile app from Ionic/Angular to React Native (Expo)",
+          "Built a modern mobile architecture with REST API integration",
+          "Implemented Offline-First synchronization and performance improvements",
+          "Integrated Bluetooth Low Energy (BLE) for medical devices"
+        ]
+      },
+      {
+        "title": "Intern",
         "organization": "Talan",
         "period": "July 2025 - August 2025",
         "description": "Intelligent market analysis and Go-To-Market strategy platform",
         "achievements": [
-          "Design and development of an intelligent platform for competitor research and analysis",
-          "Market trends analysis, geolocation opportunities and audience targeting",
-          "Automatic generation of strategic recommendations for Go-To-Market strategy development"
+          "Designed an intelligent Python platform using LangChain",
+          "Integrated pre-trained LLMs and Deep Search tools (Tavily)",
+          "Analyzed market trends, geolocation opportunities, and audience targeting",
+          "Automatically generated strategic Go-To-Market recommendations"
         ]
       },
       {
@@ -54,19 +67,19 @@
     "categories": {
       "frontend": {
         "title": "Frontend",
-        "skills": ["React.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design"]
+        "skills": ["React.js", "React Native", "Flutter", "JavaScript", "Tailwind CSS", "Bootstrap", "Responsive Design"]
       },
       "backend": {
         "title": "Backend",
-        "skills": ["Node.js", "Express.js", "MongoDB", "MySQL", "REST API", "MERN Stack"]
+        "skills": ["Node.js", "Express.js", "Python", "Java", "PHP", "Spring Boot", "REST API", "MERN Stack"]
       },
       "tools": {
         "title": "Tools & Technologies",
-        "skills": ["Git", "GitHub", "VS Code", "Vite", "npm", "Figma", "Market Analysis"]
+        "skills": ["Selenium", "Cucumber", "Git", "GitHub", "VS Code", "Vite", "npm", "Postman"]
       },
       "learning": {
         "title": "Advanced Technologies",
-        "skills": ["Artificial Intelligence", "Data Analysis", "Go-To-Market", "TypeScript", "Docker"]
+        "skills": ["Machine Learning", "LLM", "LangChain", "Deep Search", "BLE", "Offline-First"]
       }
     }
   },
@@ -74,15 +87,21 @@
     "title": "Education",
     "items": [
       {
+        "degree": "Master 2 in Artificial Intelligence & Machine Learning",
+        "school": "PSTB: Paris School of Technology & Business",
+        "year": "2026 - 2027",
+        "description": "Specialized program in applied AI, machine learning, and intelligent product-focused systems."
+      },
+      {
         "degree": "National Diploma in Computer Engineering",
         "school": "EPI: Polytechnic International School of Sousse",
-        "year": "In Progress",
+        "year": "2023 - 2026",
         "description": "Computer engineering training with specialization in software development and intelligent systems."
       },
       {
         "degree": "Bachelor's in Computer Systems Engineering",
         "school": "ISSAT: Higher Institute of Applied Sciences and Technology of Sousse",
-        "year": "2023",
+        "year": "2020 - 2023",
         "description": "Specialized training in computer systems engineering, programming and application development."
       },
       {
@@ -103,20 +122,20 @@
       },
       {
         "name": "French",
-        "level": "Fluent",
-        "percentage": 90
+        "level": "B2 (TCF)",
+        "percentage": 85
       },
       {
         "name": "English",
-        "level": "Intermediate",
-        "percentage": 75
+        "level": "B1 (TOEIC)",
+        "percentage": 70
       }
     ]
   },
   "cta": {
-    "title": "Ready to collaborate?",
-    "description": "I'm open to new opportunities, innovative projects and professional challenges.",
+    "title": "Open to an AI/ML internship in Paris",
+    "description": "I am looking for an opportunity to contribute to impactful AI, data, and software projects.",
     "contact": "Contact me",
-    "projects": "View my projects"
+    "projects": "View my work"
   }
 }

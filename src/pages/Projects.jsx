@@ -80,23 +80,23 @@ export default function Projects() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-gradient mb-4">
-                Intéressé par une collaboration ?
+                {t("projects:cta.title")}
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-md mx-auto leading-relaxed">
-                Discutons de votre prochain projet et voyons comment nous pouvons travailler ensemble.
+                {t("projects:cta.description")}
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link to="/contact" className="btn-modern group">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26c.3.16.67.16.97 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span>Me Contacter</span>
+                  <span>{t("projects:cta.contact")}</span>
                 </Link>
                 <Link to="/about" className="px-8 py-4 bg-white/80 dark:bg-gray-800/80 text-gray-800 dark:text-white border-2 border-gray-200 dark:border-gray-700 rounded-lg font-semibold hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 flex items-center gap-2 backdrop-blur-sm">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
-                  <span>En Savoir Plus</span>
+                  <span>{t("projects:cta.about")}</span>
                 </Link>
               </div>
             </div>
