@@ -13,6 +13,18 @@
           "Synchronisation hors ligne et reprise réseau",
           "Intégration Bluetooth Low Energy",
           "Optimisation UX et performance"
+        ],
+        "screenshots": [
+          "/assets/biodyconnect-screenshots/Home-Dashboard-Interface.png",
+          "/assets/biodyconnect-screenshots/User-Profile-Creation.png",
+          "/assets/biodyconnect-screenshots/BLE-Device-Pairing.png",
+          "/assets/biodyconnect-screenshots/Data-Input-Form.png",
+          "/assets/biodyconnect-screenshots/Offline-Sync-Process.jpg",
+          "/assets/biodyconnect-screenshots/Energy-Analysis-Results.jpg",
+          "/assets/biodyconnect-screenshots/Progress-Tracking-Dashboard.jpg",
+          "/assets/biodyconnect-screenshots/Bioimpedance-Metrics.jpg",
+          "/assets/biodyconnect-screenshots/new-measurement-form.jpg",
+          "/assets/biodyconnect-screenshots/app-settings-preferences.png"
         ]
       },
       {
@@ -24,7 +36,8 @@
           "Analyse des tendances de marché",
           "Ciblage intelligent des audiences",
           "Recommandations stratégiques générées automatiquement"
-        ]
+        ],
+        "videoDemo": "/assets/Talan_demo.mp4"
       },
       {
         "name": "E-commerce & Dashboard Admin",
@@ -36,6 +49,20 @@
           "Gestion des commandes et utilisateurs",
           "Suivi des ventes via dashboard"
         ]
+      },
+      {
+        "name": "Plateforme de Location de Véhicules - Full Stack",
+        "description": "Application web complète de location de voitures avec la stack MERN",
+        "technologies": ["React.js", "Redux Toolkit", "Node.js", "Express", "MongoDB", "JWT"],
+        "features": [
+          "Système de réservation de véhicules",
+          "Contrôle d'accès basé sur les rôles (JWT)",
+          "Algorithme de verrouillage dynamique des disponibilités",
+          "Dashboard administrateur complet",
+          "Pipeline QA automatisé (Selenium E2E, Jest, Postman)",
+          "Déploiement cloud sur Vercel"
+        ],
+        "link": "https://car-hire-ruddy.vercel.app/"
       },
       {
         "name": "PFA - Gestion Scolaire Multi-rôles",

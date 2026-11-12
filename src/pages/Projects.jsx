@@ -64,6 +64,67 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
+
+                {/* Video Demo Section */}
+                {project.videoDemo && (
+                  <div className="mt-4">
+                    <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Démonstration vidéo:</h4>
+                    <video 
+                      className="w-full rounded-lg border border-gray-200 dark:border-gray-700 shadow-md" 
+                      controls
+                      controlsList="nodownload"
+                    >
+                      <source src={project.videoDemo} type="video/mp4" />
+                      Votre navigateur ne supporte pas la vidéo HTML5.
+                    </video>
+                  </div>
+                )}
+
+                {/* Screenshots Gallery */}
+                {project.screenshots && project.screenshots.length > 0 && (
+                  <div className="mt-4">
+                    <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Captures d'écran:</h4>
+                    <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-5">
+                      {project.screenshots.map((screenshot, i) => (
+                        <a
+                          key={i}
+                          href={screenshot}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group relative overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 aspect-square"
+                        >
+                          <img 
+                            src={screenshot} 
+                            alt={`Capture ${i + 1}`}
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                          />
+                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                            <svg className="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Project Link */}
+                {project.link && (
+                  <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold transition-colors"
+                    >
+                      <span>Voir le projet en ligne</span>
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </div>
+                )}
               </div>
             ))}
           </div>

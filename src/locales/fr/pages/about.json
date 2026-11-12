@@ -122,13 +122,13 @@
       },
       {
         "name": "Français",
-        "level": "B2 (TCF)",
-        "percentage": 85
+        "level": "Bilingue",
+        "percentage": 100
       },
       {
         "name": "Anglais",
-        "level": "B1 (TOEIC)",
-        "percentage": 70
+        "level": "C1 (Courant)",
+        "percentage": 95
       }
     ]
   },

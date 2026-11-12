@@ -12,6 +12,18 @@
           "Offline synchronization and network recovery",
           "Bluetooth Low Energy integration",
           "UX and performance optimization"
+        ],
+        "screenshots": [
+          "/assets/biodyconnect-screenshots/Home-Dashboard-Interface.png",
+          "/assets/biodyconnect-screenshots/User-Profile-Creation.png",
+          "/assets/biodyconnect-screenshots/BLE-Device-Pairing.png",
+          "/assets/biodyconnect-screenshots/Data-Input-Form.png",
+          "/assets/biodyconnect-screenshots/Offline-Sync-Process.jpg",
+          "/assets/biodyconnect-screenshots/Energy-Analysis-Results.jpg",
+          "/assets/biodyconnect-screenshots/Progress-Tracking-Dashboard.jpg",
+          "/assets/biodyconnect-screenshots/Bioimpedance-Metrics.jpg",
+          "/assets/biodyconnect-screenshots/new-measurement-form.jpg",
+          "/assets/biodyconnect-screenshots/app-settings-preferences.png"
         ]
       },
       {
@@ -23,7 +35,8 @@
           "Market trend analysis",
           "Intelligent audience targeting",
           "Auto-generated strategic recommendations"
-        ]
+        ],
+        "videoDemo": "/assets/Talan_demo.mp4"
       },
       {
         "name": "E-commerce & Admin Dashboard",
@@ -35,6 +48,20 @@
           "Order and user management",
           "Sales monitoring dashboard"
         ]
+      },
+      {
+        "name": "Car Rental Platform - Full Stack",
+        "description": "Full-stack car rental application built with MERN Stack",
+        "technologies": ["React.js", "Redux Toolkit", "Node.js", "Express", "MongoDB", "JWT"],
+        "features": [
+          "Vehicle booking and reservation system",
+          "Role-based access control (JWT)",
+          "Dynamic availability locking algorithm",
+          "Admin dashboard for management",
+          "Automated QA pipeline (Selenium E2E, Jest, Postman)",
+          "Cloud deployment on Vercel"
+        ],
+        "link": "https://car-hire-ruddy.vercel.app/"
       },
       {
         "name": "Final-Year Project - Multi-role School App",
