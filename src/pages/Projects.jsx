@@ -28,6 +28,9 @@ export default function Projects() {
           <div className="grid md:grid-cols-2 gap-8">
             {t('projects:projects.items', { returnObjects: true }).map((project, index) => (
               <div key={index} className="card-modern hover:shadow-lg dark:hover:shadow-blue-900/30 transition-all duration-300 pointer-events-none">
+               
+ 
+                
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +70,7 @@ export default function Projects() {
 
                 {/* Video Demo Section */}
                 {project.videoDemo && (
-                  <div className="mt-4">
+                  <div className="mt-4 pointer-events-auto">
                     <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Démonstration vidéo:</h4>
                     <video 
                       className="w-full rounded-lg border border-gray-200 dark:border-gray-700 shadow-md" 
@@ -77,6 +80,17 @@ export default function Projects() {
                       <source src={project.videoDemo} type="video/mp4" />
                       Votre navigateur ne supporte pas la vidéo HTML5.
                     </video>
+                  </div>
+                )}
+
+                {/* Project Image */}
+                {project.image && (
+                  <div className="mb-4 -mx-4 -mt-4">
+                    <img 
+                      src={project.image} 
+                      alt={project.name}
+                      className="w-full h-48 object-cover rounded-t-lg"
+                    />
                   </div>
                 )}
 
@@ -125,6 +139,8 @@ export default function Projects() {
                     </a>
                   </div>
                 )}
+
+                
               </div>
             ))}
           </div>
