@@ -62,6 +62,8 @@
           "Pipeline QA automatisé (Selenium E2E, Jest, Postman)",
           "Déploiement cloud sur Vercel"
         ],
+        "image": "/assets/car-hire-showcase.png",
+        "linkText": "Voir le projet en ligne",
         "link": "https://car-hire-ruddy.vercel.app/"
       },
       {
