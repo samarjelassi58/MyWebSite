@@ -27,7 +27,7 @@ export default function Projects() {
           
           <div className="grid md:grid-cols-2 gap-8">
             {t('projects:projects.items', { returnObjects: true }).map((project, index) => (
-              <div key={index} className="card-modern group hover:scale-105 transition-all duration-300">
+              <div key={index} className="card-modern hover:shadow-lg dark:hover:shadow-blue-900/30 transition-all duration-300">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function Projects() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                       {project.name}
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{project.description}</p>
@@ -111,12 +111,12 @@ export default function Projects() {
 
                 {/* Project Link */}
                 {project.link && (
-                  <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                  <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 pointer-events-auto">
                     <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold transition-colors"
+                      className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold transition-colors pointer-events-auto cursor-pointer"
                     >
                       <span>Voir le projet en ligne</span>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
