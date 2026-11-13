@@ -1,6 +1,13 @@
 {
   "title": "Experience & Projects",
   "subtitle": "Selected professional and academic work",
+  "labels": {
+    "features": "Features",
+    "video": "Video demonstration",
+    "videoFallback": "Your browser does not support HTML5 video.",
+    "screenshots": "Screenshots",
+    "screenshot": "Screenshot"
+  },
   "projects": {
     "items": [
       {
@@ -14,6 +21,7 @@
           "UX and performance optimization"
         ],
         "screenshots": [
+          "/assets/biodyconnect-screenshots/login-page.jpg",
           "/assets/biodyconnect-screenshots/Home-Dashboard-Interface.png",
           "/assets/biodyconnect-screenshots/User-Profile-Creation.png",
           "/assets/biodyconnect-screenshots/BLE-Device-Pairing.png",

@@ -1,6 +1,13 @@
 {
   "title": "Expériences & Projets",
   "subtitle": "Sélection de réalisations professionnelles et académiques",
+  "labels": {
+    "features": "Fonctionnalités",
+    "video": "Démonstration vidéo",
+    "videoFallback": "Votre navigateur ne prend pas en charge les vidéos HTML5.",
+    "screenshots": "Captures d’écran",
+    "screenshot": "Capture"
+  },
   "projects": {
 
     "items": [
@@ -15,6 +22,7 @@
           "Optimisation UX et performance"
         ],
         "screenshots": [
+          "/assets/biodyconnect-screenshots/login-page.jpg",
           "/assets/biodyconnect-screenshots/Home-Dashboard-Interface.png",
           "/assets/biodyconnect-screenshots/User-Profile-Creation.png",
           "/assets/biodyconnect-screenshots/BLE-Device-Pairing.png",

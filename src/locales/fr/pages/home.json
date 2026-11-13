@@ -1,6 +1,31 @@
 {
   "title": "Samar Jelassi",
-  "intro": "Étudiante en M2 Intelligence Artificielle & Machine Learning à Paris. Je recherche un stage en IA/ML et développement logiciel pour contribuer à des projets ambitieux.",
+  "availability": "À la recherche d’un stage",
+  "role": "Intelligence artificielle · Développement full-stack",
+  "headline": "Des expériences numériques pensées pour les gens.",
+  "intro": "Étudiante en M2 Intelligence Artificielle & Machine Learning à Paris. Je recherche un stage en IA/ML ou développement logiciel pour contribuer à des projets ambitieux.",
+  "profile": {
+    "title": "Quelques mots sur moi",
+    "focusLabel": "Domaine d’étude",
+    "focus": "Intelligence artificielle & Machine Learning",
+    "locationLabel": "Localisation",
+    "location": "Île-de-France, France",
+    "goalLabel": "Objectif",
+    "goal": "Un stage pour 2026–2027"
+  },
+  "expertise": {
+    "eyebrow": "Domaines d’expertise",
+    "title": "Ce que je sais faire"
+  },
+  "work": {
+    "eyebrow": "Projets sélectionnés",
+    "title": "Quelques projets réalisés",
+    "viewAll": "Voir tous les projets"
+  },
+  "contact": {
+    "eyebrow": "Un projet en tête ?",
+    "title": "Créons quelque chose d’utile."
+  },
   "cta": {
     "projects": "Voir mes réalisations",
     "contact": "Me contacter",

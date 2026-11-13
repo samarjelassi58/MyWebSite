@@ -1,6 +1,31 @@
 {
   "title": "Samar Jelassi",
-  "intro": "MSc student in Artificial Intelligence & Machine Learning in Paris. I am looking for an internship in AI/ML and software engineering.",
+  "availability": "Open to internship opportunities",
+  "role": "AI & Machine Learning · Full-stack development",
+  "headline": "Building thoughtful digital experiences.",
+  "intro": "MSc student in Artificial Intelligence & Machine Learning in Paris. I am looking for an internship in AI/ML or software development.",
+  "profile": {
+    "title": "A little about me",
+    "focusLabel": "Current focus",
+    "focus": "Artificial Intelligence & Machine Learning",
+    "locationLabel": "Based in",
+    "location": "Île-de-France, France",
+    "goalLabel": "Looking for",
+    "goal": "An internship for 2026–2027"
+  },
+  "expertise": {
+    "eyebrow": "What I do",
+    "title": "My expertise"
+  },
+  "work": {
+    "eyebrow": "Selected projects",
+    "title": "A few things I’ve worked on",
+    "viewAll": "Explore all projects"
+  },
+  "contact": {
+    "eyebrow": "Have a project in mind?",
+    "title": "Let’s make something meaningful."
+  },
   "cta": {
     "projects": "View my work", 
     "contact": "Get in touch",

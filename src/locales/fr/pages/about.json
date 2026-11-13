@@ -4,7 +4,7 @@
   "hero": {
     "name": "Samar Jelassi",
     "title": "Ingénieure en génie informatique | M2 IA & Machine Learning",
-    "location": "Montrouge, Île-de-France"
+    "location": "Île-de-France, France"
   },
   "navigation": {
     "experience": "Expérience",
@@ -133,7 +133,7 @@
     ]
   },
   "cta": {
-    "title": "Ouverte à un stage en IA/ML à Paris",
+    "title": "Ouverte à un stage en IA/ML ou développement logiciel en Île-de-France",
     "description": "Je recherche une opportunité pour contribuer à des projets data, IA et logiciels à fort impact.",
     "contact": "Me contacter",
     "projects": "Voir mes réalisations"

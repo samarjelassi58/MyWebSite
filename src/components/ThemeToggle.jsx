@@ -9,7 +9,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-lg bg-white/80 dark:bg-gray-800/80 hover:bg-gray-100/80 dark:hover:bg-gray-700/80 transition-colors duration-200 shadow-md"
+      className="site-theme-toggle"
       aria-label={isDark ? t('footer:theme.light') : t('footer:theme.dark')}
       title={isDark ? t('footer:theme.light') : t('footer:theme.dark')}
     >
